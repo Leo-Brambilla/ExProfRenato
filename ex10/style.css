@@ -1,0 +1,119 @@
+body{   
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-family: caveat;        
+    background:#ffffff;
+    background-size: 600% 600%;    
+    
+}
+
+table{
+    float: right;
+    box-shadow: 5px 5px 5px 0.1px;
+    background: white;       
+    
+}
+#eng-dados{    
+    align-items: center;
+    text-align: left;
+    justify-content: justify;    
+    border: 10px;        
+    border-collapse: collapse;    
+    
+}
+#tabela-container{
+    
+    margin-right: 40px;
+    border: 1px;   
+    float: right;
+    display: block;
+
+}
+mg#logo{
+    display: block;
+    margin-left: 80px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+tr .price{
+    color: #008CB1;
+    font-size: 24px;
+    font-weight: 800;
+}
+p .texto-rodape{
+        color: #ffffff;
+        
+}
+p{    
+    color:#302e2eb3;
+    text-align: justify;
+    
+}
+h1{
+    padding-left: 92px;
+    text-align: justify;
+    color: black;
+}
+
+td{
+    color: black;
+    border: none;
+    display: block inline;    
+    
+}
+tr{
+    border: 1;    
+    margin-left: 500px;
+    
+    
+}
+tr.bt1{
+    text-align: center;
+    align-items: center;
+}
+.btn{    
+    padding: 20px 20px 20px 20px;
+    background: #FFD900;
+    border: none;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 12px;    
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.cabecalho{
+    
+    background: #0F637A;
+    
+}
+.cabecalho img{
+    padding: 5px 5px 25px 5px;
+    margin-left: 92px;
+    margin-top: 20px;
+    height: 40px;
+    
+}
+.rodape{
+    max-block-size: 0%;
+    margin-top: 200px;
+    padding: 50px;
+    align-items: center;
+    font-family: caveat;
+    background:#0F637A;
+    color: #ffffff;
+    
+}
+section#corpo{
+    margin-left: 92px;
+    display: block;
+    width: 500px;    
+    float: left;
+    border-right: 1px solid #ffffff;
+}
+section#tabela-container{
+    float: right;
+}
