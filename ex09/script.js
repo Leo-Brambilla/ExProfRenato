@@ -10,21 +10,21 @@
 
 const alcool = 1.90
 const gasolina = 2.70
-const combustivel = parseFloat(prompt(`Digite:\n1 - para alcool :\n2 - para gasolina `))
-const qtd = (prompt(`Digite a quantidade em litros: `))  
+const combustivel = prompt(`Digite:\nA - para alcool :\nG - para gasolina `)
+const qtd = parseInt(prompt(`Digite a quantidade em litros: `))  
     
-if(combustivel == 1 && qtd <=25){    
+if(combustivel == 'A' && qtd <=25){    
     const total = (combustivel*qtd*0.98)
     alert(`O combustivel selecionado foi Alcool e o valor é R$${alcool.toFixed(2)} e o total é R$${total.toFixed(2)}`)
-}else if (combustivel==1 && qtd >=26){    
+}else if (combustivel=='A' && qtd >=26){    
     const total = combustivel*qtd*0.96    
     alert(`O combustível selecionadoGasolina e o valor é R$${gasolina.toFixed(2)} e o total é R$${total.toFixed(2)}`)
     
-}else if(combustivel==2 && qtd <=25){
+}else if(combustivel=='G' && qtd <=25){
     const total = combustivel*qtd*0.97    
     alert(`O combustível selecionadoGasolina e o valor é R$${gasolina.toFixed(2)} e o total é R$${total.toFixed(2)}`)
     
-}else if(combustivel==2 && qtd >25){
+}else if(combustivel=='2' && qtd >25){
     const total = combustivel*qtd*0.95    
     alert(`O combustível selecionadoGasolina e o valor é R$${gasolina.toFixed(2)} e o total é R$${total.toFixed(2)}`)
 }

@@ -4,32 +4,12 @@ body{
     margin: 0;
     font-family: caveat;        
     background:#ffffff;
-    background-size: 600% 600%;    
-    
+    background-size: 600% 600%;        
 }
 
-table{
-    float: right;
-    box-shadow: 5px 5px 5px 0.1px;
-    background: white;       
-    
-}
-#eng-dados{    
-    align-items: center;
-    text-align: left;
-    justify-content: justify;    
-    border: 10px;        
-    border-collapse: collapse;    
-    
-}
-#tabela-container{
-    
-    margin-right: 40px;
-    border: 1px;   
-    float: right;
-    display: block;
 
-}
+
+
 mg#logo{
     display: block;
     margin-left: 80px;
@@ -37,54 +17,20 @@ mg#logo{
     padding-top: 20px;
 }
 
-tr .price{
-    color: #008CB1;
-    font-size: 24px;
-    font-weight: 800;
-}
+
 p .texto-rodape{
         color: #ffffff;
         
 }
 p{    
     color:#302e2eb3;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 h1{
     padding-left: 92px;
     text-align: justify;
     color: black;
 }
-
-td{
-    color: black;
-    border: none;
-    display: block inline;    
-    
-}
-tr{
-    border: 1;    
-    margin-left: 500px;
-    
-    
-}
-tr.bt1{
-    text-align: center;
-    align-items: center;
-}
-.btn{    
-    padding: 20px 20px 20px 20px;
-    background: #FFD900;
-    border: none;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 12px;    
-    text-align: center;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
 .cabecalho{
     
     background: #0F637A;
