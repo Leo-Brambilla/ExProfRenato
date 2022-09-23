@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+let qtdNum = [], parArray = [], imparArray = []
+let par = 0
+let impar = 0
+for (let i=0; i<6; i++){
+    qtdNum [i] = parseInt(prompt(`Informe 6 números inteiros:`))
+}
+for (let num of qtdNum){
+    if(num % 2 == 0){
+        parArray.push(num)
+        par++
+    }else{
+        imparArray.push(num)
+        impar++
+    }
+}
+alert(`Você digitou os seguintes números pares ${parArray} e os seguintes números impares ${imparArray}`)
+
+    </script>
+</body>
+</html>
