@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>a) Crie um algoritimo que recebe informações de 15 produtos.</p>
+    <p>b)Cada produto possui nome, marca, uma foto (link de uma imagem da internet), preço unitário e a quantidade de produtos em estoque.</p>
+    <p>c) Imprima no HTML as informações de cada produto</p>
+    <p>d)e o produto entre o preço e a quantidade de produtos em estoque (preço total)</p>
+    <div class="res"></div>
+    <script>
+        let produtos = []
+        let produto = {
+            nome:'',
+            marca:'',
+            link:'',
+            preco:'',
+            qtd: ''
+        }
+        for(let i=1; i<=15; i++){
+            produtos.nome = (prompt(`Digite o nome do ${i}º produto: `))
+            produtos.marca = (prompt(`Digite a marca do ${i}º produto:`))
+            produtos.link = (prompt(`Digite o link da imagem do ${i}º produto: `))
+            produtos.preco = (parseFloat(prompt(`Digite o preço do ${i}º produto: `)))
+            produtos.qtd = (prompt(`Digite a quantidade do ${i} em estoque: `))
+            produtos.push(produtos)
+            
+            document.write(`<p>
+                <img src="${produtos.link}" width="50" height="50" alt=""><br>
+                Produto ${i}: ${produtos.nome}<br>
+                Marca ${i}: ${produtos.marca}<br>
+                Preço ${i}: ${produtos.preco}<br>
+                Quantidade ${i}: ${produtos.qtd}<br>
+                
+                </p>`)
+        }       
+        
+    </script>
+</body>
+</html>
+<!--https://pixabay.com/get/g5f3b4f56079882f981c8768dd67ca7a74e62f12d81327173ef407773534a599b5bc331cbe6cbb940df5d360d5e74801e_1920.jpg-->
+<!--https://http2.mlstatic.com/D_Q_NP_696098-MLB50125602617_052022-R.webp-->
